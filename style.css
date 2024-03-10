@@ -1,0 +1,36 @@
+@media only screen and(max-width: 600px) {
+
+} 
+@keyframes anima {
+    from {
+        transform: translateX(-300px);
+    } 
+    to {
+        transform: translateX(0px);
+    }
+} 
+.o1 {
+    animation-name: anima; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    font-size: 100px; 
+} 
+.a1 {
+    animation-name: anima;
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+    font-size: 50px; 
+} 
+.n1 {
+    animation-name: anima; 
+    animation-iteration-count: 1; 
+    animation-duration: 2s; 
+    border-color: orange; 
+    border-radius: 36px; 
+    font-size: 100px; 
+    background-color: white; 
+    color: black; 
+}
+.l1 {
+    text-decoration: none;
+}
